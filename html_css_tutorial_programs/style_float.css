@@ -2,3 +2,21 @@
   width: 600px;
   margin:auto;
 }
+
+.content, aside{
+  height: 600px
+}
+.content{
+  background: red;
+  float:left;
+}
+
+aside{
+  background: brown;
+  float: left;
+}
+
+aside ul{
+  list-style: none;
+  padding-left: 0;
+}
